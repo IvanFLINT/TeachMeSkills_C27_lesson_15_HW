@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson15.task1.OutputputService;
+package com.teachmeskills.lesson15.task1.outputputService;
 
 import java.util.ArrayList;
 

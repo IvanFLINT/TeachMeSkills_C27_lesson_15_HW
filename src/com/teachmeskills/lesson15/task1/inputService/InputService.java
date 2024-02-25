@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson15.task1.service;
+package com.teachmeskills.lesson15.task1.inputService;
 
 import java.util.ArrayList;
 import java.util.Scanner;
