@@ -6,7 +6,7 @@ import com.teachmeskills.lesson15.task1.outputputService.PrintEaven;
 import java.util.Scanner;
 
 /**
- * The Runner class calls the validator method from the Validator class
+ * The Runner class calls the getIntList method from the InputService class
  */
 public class Runner {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package com.teachmeskills.lesson15.task1.outputputService;
 import java.util.ArrayList;
 
 /**
- * The Validator class contains a validator method for finding even numbers in a list.
+ * The PrintEaven class contains a validator method for finding even numbers in a list.
  */
 public class PrintEaven {
     public static void validator(ArrayList<Integer> sc) {
