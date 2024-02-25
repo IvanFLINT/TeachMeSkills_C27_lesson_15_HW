@@ -9,22 +9,22 @@ import java.util.Scanner;
 public class Service {
     public static ArrayList<Integer> service(Scanner sc) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        String var;
+        String variable;
         do {
             System.out.print("Введите число: ");
-            var = sc.nextLine();
-            if (var.equals("exit")) {
+            variable = sc.nextLine();
+            if (variable.equals("exit")) {
                 break;
             } else {
                 try {
-                    int val = Integer.valueOf(var);
+                    int val = Integer.valueOf(variable);
                     list.add(val);
                 } catch (Exception e) {
                     System.out.println("Ввели некорректные данные");
                     list.add(0);
                 }
             }
-        } while (!var.equals("exit"));
+        } while (!variable.equals("exit"));
         return list;
     }
 }
