@@ -2,7 +2,9 @@ package com.teachmeskills.lesson15.task1.runner;
 
 import com.teachmeskills.lesson15.task1.service.Service;
 import com.teachmeskills.lesson15.task1.validator.Validator;
+
 import java.util.Scanner;
+
 /**
  * The Runner class calls the validator method from the Validator class
  */

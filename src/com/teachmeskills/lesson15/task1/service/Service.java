@@ -7,7 +7,7 @@ import java.util.Scanner;
  * The Service class contains a service method for entering data into the list. Converts string data to integers.
  */
 public class Service {
-    public static ArrayList<Integer> service(Scanner sc){
+    public static ArrayList<Integer> service(Scanner sc) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         String var;
         do {
@@ -19,7 +19,7 @@ public class Service {
                 try {
                     int val = Integer.valueOf(var);
                     list.add(val);
-                }catch (Exception e){
+                } catch (Exception e) {
                     System.out.println("Ввели некорректные данные");
                     list.add(0);
                 }
