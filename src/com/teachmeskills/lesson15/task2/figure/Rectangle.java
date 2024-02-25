@@ -2,8 +2,8 @@ package com.teachmeskills.lesson15.task2.figure;
 
 public class Rectangle extends Figure{
 
-    double a, b;
-    public double p;
+    private double a, b;
+    private double p;
 
     public Rectangle(double a, double b) {
         this.a = a;

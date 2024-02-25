@@ -2,7 +2,7 @@ package com.teachmeskills.lesson15.task2.figure;
 
 public class Circle extends Figure{
     double r;
-    public double p;
+    double p;
     final double PI = 3.14;
 
     public Circle(double r) {

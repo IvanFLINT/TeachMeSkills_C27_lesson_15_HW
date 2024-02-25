@@ -6,8 +6,8 @@ import java.util.Scanner;
 /**
  * The Service class contains a service method for entering data into the list. Converts string data to integers.
  */
-public class Service {
-    public static ArrayList<Integer> service(Scanner sc) {
+public class InputService {
+    public static ArrayList<Integer> getIntList(Scanner sc) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         String variable;
         do {

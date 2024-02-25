@@ -1,11 +1,11 @@
-package com.teachmeskills.lesson15.task1.validation;
+package com.teachmeskills.lesson15.task1.OutputputService;
 
 import java.util.ArrayList;
 
 /**
  * The Validator class contains a validator method for finding even numbers in a list.
  */
-public class Validator {
+public class PrintEaven {
     public static void validator(ArrayList<Integer> sc) {
         for (int i : sc) {
             if (i % 2 == 0) {

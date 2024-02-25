@@ -1,7 +1,7 @@
 package com.teachmeskills.lesson15.task1.runner;
 
-import com.teachmeskills.lesson15.task1.service.Service;
-import com.teachmeskills.lesson15.task1.validation.Validator;
+import com.teachmeskills.lesson15.task1.service.InputService;
+import com.teachmeskills.lesson15.task1.OutputputService.PrintEaven;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Runner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Validator.validator(Service.service(sc));
+        PrintEaven.validator(InputService.getIntList(sc));
         sc.close();
     }
 }
