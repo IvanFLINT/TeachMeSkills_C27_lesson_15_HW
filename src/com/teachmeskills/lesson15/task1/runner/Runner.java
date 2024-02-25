@@ -1,7 +1,7 @@
 package com.teachmeskills.lesson15.task1.runner;
 
 import com.teachmeskills.lesson15.task1.service.Service;
-import com.teachmeskills.lesson15.task1.validator.Validator;
+import com.teachmeskills.lesson15.task1.validation.Validator;
 
 import java.util.Scanner;
 

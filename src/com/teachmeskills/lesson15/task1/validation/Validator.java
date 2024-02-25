@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson15.task1.validator;
+package com.teachmeskills.lesson15.task1.validation;
 
 import java.util.ArrayList;
 
