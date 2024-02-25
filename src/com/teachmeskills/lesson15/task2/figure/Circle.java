@@ -1,5 +1,9 @@
 package com.teachmeskills.lesson15.task2.figure;
 
+/**
+ * The Circle class contains the perimeterCalculation method,
+ * inherited from the abstract Figure class. Contains fields with variables for calculating the perimeter
+ */
 public class Circle extends Figure{
     private double r;
     private double p;
