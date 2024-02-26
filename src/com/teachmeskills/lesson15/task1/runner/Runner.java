@@ -1,7 +1,7 @@
 package com.teachmeskills.lesson15.task1.runner;
 
 import com.teachmeskills.lesson15.task1.inputService.InputService;
-import com.teachmeskills.lesson15.task1.outputputService.PrintEaven;
+import com.teachmeskills.lesson15.task1.outputService.PrintEaven;
 
 import java.util.Scanner;
 
