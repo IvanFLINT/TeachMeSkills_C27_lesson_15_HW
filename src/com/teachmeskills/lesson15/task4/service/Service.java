@@ -19,7 +19,9 @@ public class Service {
         String list;
         while ((list = br.readLine()) != null) {
             st.add(list);
-            System.out.println(list);
+        }
+        for (String strings : st){
+            System.out.println(strings);
         }
     }
 }
