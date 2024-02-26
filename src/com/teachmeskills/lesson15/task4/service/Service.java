@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Service {
 
-    public static String abc() throws IOException {
+    public static void abc() throws IOException {
         Set<String> st = new HashSet<>();
         File dir = new File(C27onlGroup.GROUP);
         BufferedReader br = null;
@@ -21,7 +21,6 @@ public class Service {
             st.add(list);
             System.out.println(list);
         }
-        return list;
     }
 }
 
