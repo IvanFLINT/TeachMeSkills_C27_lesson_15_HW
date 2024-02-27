@@ -1,8 +1,8 @@
 package com.teachmeskills.lesson15.task4.constant;
 
-import java.util.Arrays;
-import java.util.List;
-
+/**
+ *The C27onlGroup interface contains the path to the group list file
+ */
 public interface C27onlGroup {
     String GROUP = ".\\file\\grup.txt";
 
