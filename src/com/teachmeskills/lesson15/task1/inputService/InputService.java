@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * The InputService class contains a getIntList method for entering data into the list. Converts string data to integers.
+ * The InputService class contains a getIntList method for entering data into the list.
+ * Converts string data to integers.
  */
 public class InputService {
     public static ArrayList<Integer> getIntList(Scanner sc) {
