@@ -9,6 +9,10 @@ import java.io.IOException;
  */
 public class Runner {
     public static void main(String[] args) throws IOException {
-        Service.service();
+        try {
+            Service.service();
+        }catch (Exception e){
+            System.out.println("File not found");
+        }
     }
 }
